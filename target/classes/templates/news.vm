@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+hello vm
+
+$value1
+
+#foreach($color in $colors)
+Color $!{foreach.index}/$!{foreach.count}: $!{color}
+#end
+
+#foreach($key in $map.keySet())
+Num $!{foreach.index}/$!{foreach.count}: $!{color}
+#end
+
+$!{user.name}
+$!{user.getName()}
+
+#set($title = "nowcoder")
+Include: #include("header.vm")
+
+Parse: #parse("header.vm")
+
+#macro (render_color, $color, $index)
+Color by Macro $index, $color
+#end
+
+#foreach($color in $colors)
+#render_color($color, $foreach.index)
+#end
+
+#set($hello = "hello")
+#set($helloworld1 = "$!hello world")
+#set($helloworld2 = '$!hello world')
+$hello
+$helloworld1
+$helloworld2
+
+
+</pre>
+</body>
+</html>
