@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef5d64dd-51e2-48c7-8650-d0126aca0eb6" name="Default Changelist" comment="" />
+    <list default="true" id="ef5d64dd-51e2-48c7-8650-d0126aca0eb6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/ToutiaoDatabaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nowcoder/ToutiaoDatabaseTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -43,6 +50,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YdpFqp7P9FTdwncdl3ygwOylXm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -59,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/nowcoder/dao" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,6 +84,10 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.nowcoder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cyr42\Desktop\own\toutiao\src\main\resources\com\nowcoder\dao" />
+      <recent name="C:\Users\cyr42\Desktop\own\toutiao\src\main\resources\com.nowcoder\dao" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ToutiaoDatabaseTests">
@@ -160,7 +174,8 @@
       <workItem from="1583411700543" duration="1037000" />
       <workItem from="1583412754742" duration="35000" />
       <workItem from="1583412806757" duration="13000" />
-      <workItem from="1583422266384" duration="1923000" />
+      <workItem from="1583422266384" duration="3006000" />
+      <workItem from="1583425309961" duration="1276000" />
     </task>
     <servers />
   </component>
@@ -172,6 +187,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1077" y="215" width="800" height="684" key="#Inspections/70.27.1850.1053@70.27.1850.1053" timestamp="1583420981827" />
+    <state x="1032" y="182" key="#Notifications" timestamp="1583425261863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1583425261863" />
     <state x="599" y="231" width="848" height="684" key="#Project_Structure" timestamp="1583411679938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -191,25 +210,25 @@
     </state>
     <state x="1197" y="280" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583424133834" />
     <state x="1223" y="311" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1583425013897" />
-    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1583423408652">
+    <state width="914" height="275" key="GridCell.Tab.0.bottom" timestamp="1583426586668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583423408652" />
+    <state width="914" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583426586668" />
     <state width="1354" height="426" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1583427638628" />
-    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1583423408652">
+    <state width="914" height="275" key="GridCell.Tab.0.center" timestamp="1583426586667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583423408652" />
+    <state width="914" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583426586667" />
     <state width="1354" height="426" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1583427638628" />
-    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1583423408652">
+    <state width="914" height="275" key="GridCell.Tab.0.left" timestamp="1583426586667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583423408652" />
+    <state width="914" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583426586667" />
     <state width="1354" height="426" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1583427638628" />
-    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1583423408652">
+    <state width="914" height="275" key="GridCell.Tab.0.right" timestamp="1583426586668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583423408652" />
+    <state width="914" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583426586668" />
     <state width="1354" height="426" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1583427638628" />
     <state width="1804" height="275" key="GridCell.Tab.1.bottom" timestamp="1583368025099">
       <screen x="70" y="27" width="1850" height="1053" />
@@ -227,10 +246,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state width="1804" height="275" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1583368025098" />
-    <state x="333" y="194" width="1022" height="737" key="SettingsEditor" timestamp="1583424189046">
+    <state x="333" y="194" width="1022" height="737" key="SettingsEditor" timestamp="1583425293095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="333" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583424189046" />
+    <state x="333" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583425293095" />
     <state x="898" y="188" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1583421762363" />
     <state x="1108" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1583425004411">
       <screen x="70" y="27" width="1850" height="1053" />

@@ -8,7 +8,7 @@ public class News {
     private String image;
     private int likeCount;
     private int commentCount;
-    private Date createDate;
+    private Date createdDate;
     private int userId;
 
     public int getId() {
@@ -60,11 +60,11 @@ public class News {
     }
 
     public Date getCreateDate() {
-        return createDate;
+        return createdDate;
     }
 
     public void setCreateDate(Date createDate) {
-        this.createDate = createDate;
+        this.createdDate = createDate;
     }
 
     public int getUserId() {
