@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef5d64dd-51e2-48c7-8650-d0126aca0eb6" name="Default Changelist" comment="added home">
+    <list default="true" id="1fed6ed0-bbb9-4808-8ada-32dab047da09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/304a1724-b40c-40c3-bd4d-da3380750bdc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/304a1724-b40c-40c3-bd4d-da3380750bdc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/ToutiaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/ToutiaoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/aspect/LogAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/SettingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/NewsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/NewsDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/dao/UserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/News.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/ViewObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/model/ViewObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/ToutiaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/ToutiaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/ToutiaoDatabaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nowcoder/ToutiaoDatabaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/nowcoder/dao/NewsDAO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/nowcoder/dao/NewsDAO.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/hm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/hm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/jquery.qrcode.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/jquery.qrcode.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/news.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/news.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/toolbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/toolbox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/ToutiaoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nowcoder/ToutiaoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/init-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/init-schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/aspect/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/aspect/LogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/SettingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/SettingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/NewsDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/NewsDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/NewsDAO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/NewsDAO.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/model/News.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/model/ViewObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/model/ViewObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/service/NewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/ToutiaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/service/ToutiaoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/hm.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/hm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/jquery.qrcode.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scripts/jquery.qrcode.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/news.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/news.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/toolbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/toolbox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/init-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/init-schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toutiao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,24 +71,9 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,27 +81,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1YdpFqp7P9FTdwncdl3ygwOylXm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1YhwJOb7zjd6e5dzjQBvig66npT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -77,32 +100,52 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../own/toutiao/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cyr42\Desktop\toutiao\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.nowcoder.controller" />
-      <recent name="com.nowcoder" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\cyr42\Desktop\own\toutiao\src\main\java" />
-      <recent name="C:\Users\cyr42\Desktop\own\toutiao\src\main\resources\templates" />
-      <recent name="C:\Users\cyr42\Desktop\own\toutiao\src\main\resources\static" />
-      <recent name="C:\Users\cyr42\Desktop\own\toutiao\src\main\resources\com\nowcoder\dao" />
-      <recent name="C:\Users\cyr42\Desktop\own\toutiao\src\main\resources\com.nowcoder\dao" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cyr42\Desktop\toutiao\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ToutiaoApplication">
+    <configuration name="InitDatabaseTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="toutiao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nowcoder" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.InitDatabaseTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InitDatabaseTests.initData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="toutiao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nowcoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nowcoder" />
+      <option name="MAIN_CLASS_NAME" value="com.nowcoder.InitDatabaseTests" />
+      <option name="METHOD_NAME" value="initData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ToutiaoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="toutiao" />
       <extension name="coverage">
@@ -118,37 +161,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToutiaoDatabaseTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="toutiao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nowcoder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nowcoder" />
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.ToutiaoDatabaseTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToutiaoDatabaseTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="toutiao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nowcoder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nowcoder" />
-      <option name="MAIN_CLASS_NAME" value="com.nowcoder.ToutiaoDatabaseTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ToutiaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="toutiao" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nowcoder.ToutiaoApplication" />
@@ -158,9 +170,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ToutiaoDatabaseTests" />
+        <item itemvalue="JUnit.InitDatabaseTests" />
         <item itemvalue="JUnit.ToutiaoApplicationTests" />
-        <item itemvalue="JUnit.ToutiaoDatabaseTests.contextLoads" />
+        <item itemvalue="JUnit.InitDatabaseTests.initData" />
       </list>
     </recent_temporary>
   </component>
@@ -169,125 +181,83 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ef5d64dd-51e2-48c7-8650-d0126aca0eb6" name="Default Changelist" comment="" />
-      <created>1583282224280</created>
+      <changelist id="1fed6ed0-bbb9-4808-8ada-32dab047da09" name="Default Changelist" comment="" />
+      <created>1583408061913</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583282224280</updated>
-      <workItem from="1583282227274" duration="181000" />
-      <workItem from="1583282497498" duration="697000" />
-      <workItem from="1583352710955" duration="2503000" />
-      <workItem from="1583357376925" duration="10383000" />
-      <workItem from="1583402345312" duration="605000" />
-      <workItem from="1583416774220" duration="6362000" />
-      <workItem from="1583423511478" duration="768000" />
-      <workItem from="1583426238338" duration="1401000" />
-      <workItem from="1583411608205" duration="81000" />
-      <workItem from="1583411700543" duration="1037000" />
-      <workItem from="1583412754742" duration="35000" />
-      <workItem from="1583412806757" duration="13000" />
-      <workItem from="1583422266384" duration="3006000" />
-      <workItem from="1583425309961" duration="1276000" />
-      <workItem from="1583497657491" duration="1512000" />
-      <workItem from="1583499180405" duration="3251000" />
+      <updated>1583408061913</updated>
+      <workItem from="1583408064949" duration="2672000" />
+      <workItem from="1583411421960" duration="1310000" />
+      <workItem from="1583412820649" duration="23000" />
+      <workItem from="1583412860876" duration="24000" />
+      <workItem from="1583412934869" duration="681000" />
+      <workItem from="1583422246821" duration="18000" />
+      <workItem from="1583502492233" duration="6477000" />
+      <workItem from="1583508999911" duration="98000" />
+      <workItem from="1583509117308" duration="3000" />
+      <workItem from="1583509150564" duration="470000" />
+      <workItem from="1583509642576" duration="144000" />
+      <workItem from="1583509813491" duration="4000" />
+      <workItem from="1583509860522" duration="19000" />
+      <workItem from="1583509946256" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="added home" />
-    <option name="LAST_COMMIT_MESSAGE" value="added home" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="1077" y="215" width="800" height="684" key="#Inspections" timestamp="1583420981827">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="1077" y="215" width="800" height="684" key="#Inspections/70.27.1850.1053@70.27.1850.1053" timestamp="1583420981827" />
-    <state x="1032" y="182" key="#Notifications" timestamp="1583425261863">
+    <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583411968201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1583425261863" />
-    <state x="599" y="231" width="848" height="684" key="#Project_Structure" timestamp="1583411679938">
+    <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583411968201" />
+    <state x="1219" y="378" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583509055740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="599" y="231" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1583411679938" />
-    <state x="647" y="261" width="848" height="684" key="#Project_Structure/70.27.1850.1053@70.27.1850.1053" timestamp="1583417953286" />
-    <state x="703" y="205" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583426669403">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="703" y="205" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583426669403" />
-    <state x="1223" y="210" width="374" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1583412559600">
+    <state x="1219" y="378" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1583509055740" />
+    <state x="669" y="382" key="FileChooserDialogImpl" timestamp="1583509875998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1223" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583412559600" />
-    <state x="1248" y="240" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1583418991503" />
-    <state x="1040" y="117" key="CommitChangelistDialog2" timestamp="1583498861935">
+    <state x="669" y="382" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583509875998" />
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1583509984580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1040" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583498861935" />
-    <state x="1197" y="280" width="424" height="491" key="FileChooserDialogImpl" timestamp="1583499971508">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583509984580" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1583509984580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1197" y="280" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583499971508" />
-    <state x="1223" y="311" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1583425013897" />
-    <state width="914" height="274" key="GridCell.Tab.0.bottom" timestamp="1583502436197">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583509984580" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1583509984579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583502436197" />
-    <state width="1354" height="426" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1583427638628" />
-    <state width="914" height="274" key="GridCell.Tab.0.center" timestamp="1583502436197">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583509984579" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1583509984580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583502436197" />
-    <state width="1354" height="426" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1583427638628" />
-    <state width="914" height="274" key="GridCell.Tab.0.left" timestamp="1583502436197">
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583509984580" />
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom" timestamp="1583509984580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583502436197" />
-    <state width="1354" height="426" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1583427638628" />
-    <state width="914" height="274" key="GridCell.Tab.0.right" timestamp="1583502436197">
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583509984580" />
+    <state width="1877" height="264" key="GridCell.Tab.1.center" timestamp="1583509984580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583502436197" />
-    <state width="1354" height="426" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1583427638628" />
-    <state width="914" height="274" key="GridCell.Tab.1.bottom" timestamp="1583502436184">
+    <state width="1877" height="264" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583509984580" />
+    <state width="1877" height="264" key="GridCell.Tab.1.left" timestamp="1583509984580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583502436184" />
-    <state width="1804" height="275" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1583368025099" />
-    <state width="914" height="274" key="GridCell.Tab.1.center" timestamp="1583502436184">
+    <state width="1877" height="264" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583509984580" />
+    <state width="1877" height="264" key="GridCell.Tab.1.right" timestamp="1583509984580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583502436184" />
-    <state width="1804" height="275" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1583368025098" />
-    <state width="914" height="274" key="GridCell.Tab.1.left" timestamp="1583502436184">
+    <state width="1877" height="264" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583509984580" />
+    <state x="0" y="165" key="SettingsEditor" timestamp="1583413251078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583502436184" />
-    <state width="1804" height="275" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1583368025098" />
-    <state width="914" height="274" key="GridCell.Tab.1.right" timestamp="1583502436184">
+    <state x="0" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583413251078" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583411424092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583502436184" />
-    <state width="1804" height="275" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1583368025098" />
-    <state x="333" y="194" width="1022" height="737" key="SettingsEditor" timestamp="1583498625380">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="333" y="194" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583498625380" />
-    <state x="898" y="188" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1583421762363" />
-    <state x="1108" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1583425004411">
-      <screen x="70" y="27" width="1850" height="1053" />
-    </state>
-    <state x="1108" y="381" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583425004411" />
-    <state x="1116" y="123" width="647" height="801" key="find.popup" timestamp="1583502421584">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1116" y="123" width="647" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583502421584" />
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583412349524">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583412349524" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583411424092" />
   </component>
 </project>

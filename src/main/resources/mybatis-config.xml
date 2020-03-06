@@ -4,6 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+
     <settings>
         <!-- Globally enables or disables any caches configured in any mapper under this configuration -->
         <setting name="cacheEnabled" value="true"/>
@@ -16,6 +17,7 @@
          as some drivers deny compatibility but still work -->
         <setting name="useGeneratedKeys" value="true"/>
     </settings>
+
 
     <!-- Continue going here -->
 
