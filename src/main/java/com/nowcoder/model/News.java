@@ -59,11 +59,11 @@ public class News {
         this.commentCount = commentCount;
     }
 
-    public Date getCreateDate() {
+    public Date getCreatedDate() {
         return createdDate;
     }
 
-    public void setCreateDate(Date createDate) {
+    public void setCreatedDate(Date createDate) {
         this.createdDate = createDate;
     }
 

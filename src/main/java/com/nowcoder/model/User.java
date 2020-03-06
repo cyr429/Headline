@@ -48,11 +48,11 @@ public class User {
         this.salt = salt;
     }
 
-    public String getHead_url() {
+    public String getHeadUrl() {
         return headUrl;
     }
 
-    public void setHead_url(String head_url) {
+    public void setHeadUrl(String head_url) {
         this.headUrl = head_url;
     }
 }

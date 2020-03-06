@@ -20,7 +20,7 @@ public interface UserDAO {
     User selectById(int id);
 
     @Update({"update ", TABLE_NAME, " set password=#{password} where id=#{id}"})
-    void updateUserPassword(User user);
+    void updatePassword(User user);
 
     @Delete({"delete from ",TABLE_NAME," where id=#{id}" })
     void deleteById(int id);
