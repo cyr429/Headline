@@ -66,7 +66,7 @@ public class LoginController {
                         @RequestParam(value = "rember", defaultValue ="0") int rememberme,
                         HttpServletResponse response) {
         try{
-            Map<String, Object> map = userService.register(username, password);
+            Map<String, Object> map = userService.login(username, password);
             if(map.containsKey("ticket")){
                 Cookie cookie = new Cookie("ticket", map.get("ticket").toString());
                 if(rememberme>0){
@@ -74,14 +74,14 @@ public class LoginController {
                 }
                 cookie.setPath("/");
                 response.addCookie(cookie);
-                return ToutiaoUtil.getJSONString(0,"注册成功");
+                return ToutiaoUtil.getJSONString(0,"登录成功");
             }
             else {
                 return ToutiaoUtil.getJSONString(1,map);
             }
         }catch (Exception e){
-            logger.error("注册异常"+e.getMessage());
-            return ToutiaoUtil.getJSONString(1,"注册异常");
+            logger.error("登录异常"+e.getMessage());
+            return ToutiaoUtil.getJSONString(1,"登录异常");
         }
     }
     @RequestMapping(path = {"/logout/"}, method = {RequestMethod.GET, RequestMethod.POST})

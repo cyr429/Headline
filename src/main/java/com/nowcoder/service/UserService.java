@@ -59,6 +59,8 @@ public class UserService {
         return userDAO.selectById(id);
     }
 
+
+
     public Map<String, Object> login(String username, String password){
         Map<String, Object> map= new HashMap<String, Object>();
         if(StringUtils.isBlank(username)){
@@ -71,12 +73,12 @@ public class UserService {
         }
         User user= userDAO.selectByName(username);
         if(user==null){
-            map.put("msgname","用户名不存在");
+            map.put("msgname","用户不存在");
             return map;
         }
 
-        if(ToutiaoUtil.MD5(password+user.getSalt()).equals(user.getPassword())){
-            map.put("msgpwd","密码不正确");
+        if(!ToutiaoUtil.MD5(password+user.getSalt()).equals(user.getPassword())){
+            map.put("msgpwd",user.getPassword()+"-----"+ToutiaoUtil.MD5(password+user.getSalt()));
             return map;
         }
         //ticket
