@@ -6,9 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
 
 @Component
-public class ToutiaoWebConfiguration extends WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter {
+public class ToutiaoWebConfiguration extends WebMvcConfigurerAdapter {
     @Autowired
     PassportInterceptor passportInterceptor;
 
@@ -18,7 +20,7 @@ public class ToutiaoWebConfiguration extends WebMvcAutoConfiguration.WebMvcAutoC
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(passportInterceptor);
-        registry.addInterceptor(loginRequiredInterceptor).addPathPatterns("/setting");
+        registry.addInterceptor(loginRequiredInterceptor).addPathPatterns("/msg/*");
         super.addInterceptors(registry);
     }
 }

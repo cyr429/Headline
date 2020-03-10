@@ -1,24 +1,25 @@
 package com.nowcoder.controller;
 
-import com.nowcoder.model.HostHolder;
-import com.nowcoder.model.News;
+import com.nowcoder.model.*;
+import com.nowcoder.service.CommentService;
 import com.nowcoder.service.NewsService;
+import com.nowcoder.service.UserService;
 import com.nowcoder.util.ToutiaoUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.util.StreamUtils;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileInputStream;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Controller
 public class NewsController {
@@ -29,6 +30,13 @@ public class NewsController {
 
     @Autowired
     HostHolder hostHolder;
+
+    @Autowired
+    UserService userService;
+
+    @Autowired
+    CommentService commentService;
+
 
     @RequestMapping(path = {"/image"}, method = {RequestMethod.GET})
     @ResponseBody
@@ -90,4 +98,50 @@ public class NewsController {
         }
 
     }
+
+    @RequestMapping(path={"/news/{newsId}"},method={RequestMethod.GET})
+    public String newsDetail(@PathVariable("newsId") int newsId, Model model){
+        News news = newsService.getById(newsId);
+        if(news!=null){
+            //comment
+            List<Comment> comments= commentService.getCommentsByEntity(news.getId(), EntityType.ENTITY_NEWS);
+            List<ViewObject> commentVOs = new ArrayList<ViewObject>();
+            for(Comment comment: comments){
+                ViewObject vo=new ViewObject();
+                vo.set("comment",comment);
+                vo.set("user", userService.getUser(comment.getUserId()));
+                commentVOs.add(vo);
+            }
+            model.addAttribute("comments",commentVOs);
+        }
+        model.addAttribute("news",news);
+        model.addAttribute("owner", userService.getUser(news.getUserId()));
+        System.out.println(news.getUserId());
+        return "detail";
+    }
+
+    @RequestMapping(path={"/addComment"},method={RequestMethod.POST})
+    public String addComment(@RequestParam("newsId") int newsId,
+                             @RequestParam("content") String content){
+        try{
+            Comment comment=new Comment();
+            comment.setUserId(hostHolder.getUser().getId());
+            comment.setCreatedDate(new Date());
+            comment.setEntityType(EntityType.ENTITY_NEWS);
+            comment.setStatus(0);
+            comment.setEntityId(newsId);
+            comment.setContent(content);
+            commentService.addComment(comment);
+
+            //update comment count in news
+            int count=commentService.getCommentCount(comment.getEntityId(),comment.getEntityType());
+            newsService.updateCommentCount(newsId,count);
+        }catch(Exception e){
+            logger.error("评论失败"+e.getMessage());
+        }
+        return "redirect:/news/"+String.valueOf(newsId);
+    }
+
+
+
 }

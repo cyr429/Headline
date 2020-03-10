@@ -30,6 +30,10 @@ public class NewsService {
         return news.getId();
     }
 
+    public News getById(int newsId){
+        return newsDAO.getById(newsId);
+    }
+
 
     public String saveImage(MultipartFile file) throws IOException{
         int doPos = file.getOriginalFilename().lastIndexOf(".");
@@ -42,5 +46,8 @@ public class NewsService {
         Files.copy(file.getInputStream(), new File(ToutiaoUtil.IMAGE_DIR+fileName).toPath(),
                 StandardCopyOption.REPLACE_EXISTING);
         return ToutiaoUtil.TOUTIAO_DOMAIN+"image?name="+fileName;
+    }
+    public int updateCommentCount(int id,int count){
+        return newsDAO.updateCommentCount(id,count);
     }
 }

@@ -1,4 +1,5 @@
-package com.nowcoder.service;
+/**
+ package com.nowcoder.service;
 
 import com.alibaba.fastjson.JSONObject;
 import com.nowcoder.util.ToutiaoUtil;
@@ -67,3 +68,4 @@ public class QiniuService {
 
     }
 }
+*/
