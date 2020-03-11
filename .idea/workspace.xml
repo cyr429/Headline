@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fed6ed0-bbb9-4808-8ada-32dab047da09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/configuration/ToutiaoWebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/configuration/ToutiaoWebConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/controller/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/NewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/QiniuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nowcoder/service/QiniuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/Flat-UI-Icons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/Flat-UI-Icons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/Flat-UI-Icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/Flat-UI-Icons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/Flat-UI-Icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/Flat-UI-Icons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nowcoder/InitDatabaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/init-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/init-schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/configuration/ToutiaoWebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/configuration/ToutiaoWebConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/NewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/controller/NewsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/service/NewsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/QiniuService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Flat-UI-Icons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/fonts/Flat-UI-Icons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Flat-UI-Icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/fonts/Flat-UI-Icons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/Flat-UI-Icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/fonts/Flat-UI-Icons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nowcoder/InitDatabaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nowcoder/InitDatabaseTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/init-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/init-schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toutiao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/letter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/letter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nowcoder/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nowcoder/service/CommentService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/nowcoder/controller" />
+    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/001 牛客网-牛人计划Python+Java项目/牛客网项目（中级）/代码/中级项目课头条资讯第六课代码/pom.xml" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -204,6 +177,8 @@
       <workItem from="1583817977883" duration="3231000" />
       <workItem from="1583821222062" duration="5315000" />
       <workItem from="1583829566859" duration="6067000" />
+      <workItem from="1583848367904" duration="1218000" />
+      <workItem from="1583909499154" duration="10867000" />
     </task>
     <servers />
   </component>
@@ -215,50 +190,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583411968201" />
-    <state x="1159" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1583826669615">
+    <state x="1159" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1583909840298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1159" y="312" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583826669615" />
+    <state x="1159" y="312" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583909840298" />
     <state x="1219" y="378" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583509055740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1219" y="378" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1583509055740" />
-    <state x="669" y="382" key="FileChooserDialogImpl" timestamp="1583821300306">
+    <state x="669" y="382" key="FileChooserDialogImpl" timestamp="1583911474530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="382" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583821300306" />
-    <state width="914" height="256" key="GridCell.Tab.0.bottom" timestamp="1583840129181">
+    <state x="669" y="382" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583911474530" />
+    <state width="914" height="258" key="GridCell.Tab.0.bottom" timestamp="1583925783683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583840129181" />
-    <state width="914" height="256" key="GridCell.Tab.0.center" timestamp="1583840129181">
+    <state width="914" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583925783683" />
+    <state width="914" height="258" key="GridCell.Tab.0.center" timestamp="1583925783683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583840129181" />
-    <state width="914" height="256" key="GridCell.Tab.0.left" timestamp="1583840129181">
+    <state width="914" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583925783683" />
+    <state width="914" height="258" key="GridCell.Tab.0.left" timestamp="1583925783682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583840129181" />
-    <state width="914" height="256" key="GridCell.Tab.0.right" timestamp="1583840129181">
+    <state width="914" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583925783682" />
+    <state width="914" height="258" key="GridCell.Tab.0.right" timestamp="1583925783683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583840129181" />
-    <state width="914" height="256" key="GridCell.Tab.1.bottom" timestamp="1583840129181">
+    <state width="914" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583925783683" />
+    <state width="914" height="258" key="GridCell.Tab.1.bottom" timestamp="1583925783683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="256" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583840129181" />
-    <state width="914" height="256" key="GridCell.Tab.1.center" timestamp="1583840129181">
+    <state width="914" height="258" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583925783683" />
+    <state width="914" height="258" key="GridCell.Tab.1.center" timestamp="1583925783683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="256" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583840129181" />
-    <state width="914" height="256" key="GridCell.Tab.1.left" timestamp="1583840129181">
+    <state width="914" height="258" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583925783683" />
+    <state width="914" height="258" key="GridCell.Tab.1.left" timestamp="1583925783683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="256" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583840129181" />
-    <state width="914" height="256" key="GridCell.Tab.1.right" timestamp="1583840129181">
+    <state width="914" height="258" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583925783683" />
+    <state width="914" height="258" key="GridCell.Tab.1.right" timestamp="1583925783683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="256" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583840129181" />
+    <state width="914" height="258" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583925783683" />
     <state x="0" y="165" key="SettingsEditor" timestamp="1583413251078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
